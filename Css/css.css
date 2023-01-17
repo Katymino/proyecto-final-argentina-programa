@@ -1,0 +1,139 @@
+
+
+html {
+    font-family: 'Nanum Gothic', sans-serif;
+    color: rgb(100, 99, 99);
+    font-size: 20px;
+}
+
+body {
+    font-family: 'Nanum Gothic', sans-serif;
+    color: rgb(100, 99, 99);
+    font-size: 20px;
+}
+
+header {
+    background-color: #17c4df;
+}
+
+#menu {
+    background-color: #e3f2fd;
+}
+
+h1 {
+    font-family: 'Rubik', sans-serif;
+    width: 800px;
+    padding: 5px;
+    margin: 30px;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+
+h2, h3, h4 {
+    font-family: 'Rubik', sans-serif;
+    width: 500px;
+    padding: 5px;
+    margin: 25px;
+    font-size: 30px;
+    color: #17c4df;
+    font-weight: bold;
+}
+
+
+#sobre-mi {
+    font-size: 20px;
+    color: rgb(100, 99, 99);
+    text-align:justify center;
+    font-weight: bold;
+}
+
+#sobre-mi span {
+    font-family: 'Rubik', sans-serif;
+    font-size: 30px;
+    color: rgb(70, 192, 230);
+    text-align:justify;
+    font-weight: bold;
+}
+
+#fotografia {
+    padding: 5%;
+}
+
+
+@media (max-width:768px) {
+    #habilidades, #fotografia {
+        width: 90% !important;
+    }
+}
+
+#datos-personales {
+    width: 100%;
+    max-width: 100%;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+#datos-personales h3 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 25px;
+    color: rgb(70, 192, 230);
+    text-align: left;
+    font-weight: bold;
+    padding-left: 20%;
+}
+
+
+
+#titulos-trabajos {
+    font-family: 'Rubik', sans-serif;
+    font-size: 25px;
+    color: rgb(100, 99, 99);
+    text-align:justify;
+    font-weight: bold;
+}
+
+#duracion-trabajos {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 25px;
+    color: rgb(100, 99, 99);
+    text-align:justify;
+    font-style: italic;
+    margin-bottom: initial;
+
+}
+
+p {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 20px;
+    color: rgb(100, 99, 99);
+
+}
+
+#formulario {
+    max-width: 500px;
+    padding: 20 0;
+}
+
+
+.btn-info {
+    color: white;
+    background-color: #0dcaf0;
+    border-color: #0dcaf0;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #17c4df;
+}
+
+footer > p {
+    color: white;
+}
+
+#iconos i {
+    color: white;
+}
+
+
